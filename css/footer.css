@@ -1,5 +1,6 @@
 .footer {
   background: #000;
+
 }
 
 .footer-container {
@@ -30,10 +31,9 @@
   text-decoration: none;
 }
 
-
 .footer-copy {
- grid-column: 1 / -1;
- text-align: center;
+  grid-column: 1 / -1;
+  text-align: center;
   color: #8f8f8f;
   font-size: 17px;
   margin-bottom: 10px;
@@ -42,7 +42,7 @@
 @media (max-width: 820px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 40px
+    gap: 40px;
   }
   .footer-texto {
     max-width: 45ch;
@@ -62,12 +62,15 @@
 
 .git li a {
   display: flex;
-  gap: 15px
+  gap: 15px;
 }
 
-.subir {
+div.subir {
   text-align: right;
   margin-right: 5px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
 }
 
 .subir a {
@@ -77,4 +80,3 @@
   font-size: 30px;
   text-align: center;
 }
-
